@@ -1,0 +1,28 @@
+/* Footer.css */
+
+.footer-container {
+    position: relative;
+    width: 100%;
+    height: 20vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-container {
+    position: absolute;
+    bottom: 0; /* Adjust positioning as needed */
+    left: 0;
+    width: 100%;
+    padding: 20px; /* Adjust padding as needed */
+    background: rgba(0, 0, 0, 0.5); /* Add background color with opacity for better text readability */
+    color: white; /* Set text color */
+  }
+  

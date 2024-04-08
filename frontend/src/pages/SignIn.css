@@ -1,0 +1,17 @@
+/* body {
+    background-image: url("../bg.jpg");
+    background-size: cover;
+    background-position: center;
+  } */
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover; /* Ensure the video covers the entire background */
+  }
+  
+  /* Additional styling for your form and other content */
+  

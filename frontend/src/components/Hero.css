@@ -1,0 +1,38 @@
+/* Hero.css */
+
+.font-lobster {
+    font-family: 'Lobster', cursive; /* Specify Lobster font */
+  }
+  .font-BENTHAM {
+    font-family: 'Bentham', sans-serif;
+  }
+  .hero-container {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Add background color with opacity for better text readability */
+  }
+  
+  /* Add any additional styles for your content here */
+  
